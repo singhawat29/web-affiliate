@@ -1,0 +1,616 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+.content {
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;
+}
+.content ul {
+    padding: 0;
+    list-style-type: none;    
+}
+.header {
+    height: 6.25rem;
+    background-color:#fff;
+}
+.header-con{
+    display: flex;
+    justify-content: space-between;
+    height: 6.25rem;
+    align-items: center;
+    padding: 0 2rem;
+}
+.logo {
+    height: 6.25rem;
+    /*position: absolute;*/
+    margin-top: 1rem;
+}
+.header-con button{
+    border: 1px solid #5DC0AF;
+    border-radius: 25px;
+    width: 130px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #5DC0AF;
+    background-color: #fff;
+}
+
+.logo-circle{
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+}
+.bg-1{
+    height: 1030px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+.bg-1 button{
+    background: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    padding: 0.25rem 1rem;
+}
+.bg-1 button a{
+    text-decoration: none;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer{
+    padding-top: 300px;
+    padding-bottom: 100px;
+    text-align: center;
+    position: relative;
+}
+
+.con {
+    padding: 1rem 2rem;
+
+}
+.VERSE360 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0 4rem;
+}
+.VERSE360 h1 {
+    max-width: 800px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+.VERSE360 h6 {
+    max-width: 800px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 31px;
+    color: #646464;
+}
+
+.why360 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.why360 h1{
+    max-width: 800px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+}
+.why360 h6{
+    max-width: 800px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 31px;
+    color: #646464;
+    text-align: center;
+}
+.conCardWhy360{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.card-why360 {
+    max-width: 360px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    height: 374px;
+}
+.card-why360 h4 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 28px;
+    color: #5DC0AF;
+    padding: 0.25rem;
+}
+.card-why360 h6 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    padding: 0 0.5rem;
+}
+.card-why360 img{
+    width: 100%;
+}
+
+.service360 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.service360 h1{
+    max-width: 800px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+    text-align: center;
+}
+.service360 h6{
+    max-width: 800px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 31px;
+    color: #646464;
+    text-align: center;
+}
+.conCardService360{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6.25rem;
+}
+.card-service360{
+    display: flex;
+    width: 430px;
+}
+.con2CardService360{
+    padding-left:0.65rem;
+}
+.con2CardService360 h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #5DC0AF;
+}
+.con2CardService360 h6 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    text-align: left;
+}
+
+.fit360 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.fit360 h1{
+    max-width: 800px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+.fit360 h6{
+    max-width: 800px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 31px;
+    color: #646464;
+    text-align: center;
+}
+.conCardFit360{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.card-fit360 {
+    max-width: 250px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.card-fit360 h4 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 28px;
+    color: #5DC0AF;
+    padding: 0.25rem;
+}
+.card-fit360 h6 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    padding: 0 0.5rem;
+}
+
+.value360 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.value360 h1{
+    max-width: 800px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+.value360 h6{
+    max-width: 800px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 31px;
+    color: #646464;
+    text-align: center;
+}
+.conCardValue360{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.card-value{
+    max-width: 350px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    padding: 1rem;
+}
+.con2CardValue360 {
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    gap: 1rem;
+}
+.card-value h4 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 28px;
+    color: #5DC0AF;
+    padding: 0.25rem;
+}
+.card-value h6 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    padding: 0 0.5rem;
+    text-align: left;
+}
+.con6{
+    background-image: url(../img/imgBack.svg);
+    background-repeat: no-repeat;
+    height: 480px;
+}
+.step360 {
+    height: 480px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.step360 h1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.step360 h6{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: center;   
+    color: #A0A0A0; 
+}
+.conCardstep360{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.cardStpe360{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+.Step{
+    font-family: 'Cherry Swash', cursive;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #5DC0AF;
+}
+.numStep{
+    font-family: 'Cherry Swash', cursive;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 96px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #5DC0AF;
+}
+.cardStpe360 p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 1rem;
+}
+
+.Detail {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Detail h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    text-align: center;
+}
+.Detail button {
+    background: #5DC0AF;
+    border-radius: 25px;
+    border: none;
+    padding: 0.25rem 2rem;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.con8{
+    padding: 3rem 2rem;
+    background: #F5F5F7;
+}
+.pack360 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.pack360 h1{
+    max-width: 800px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+    text-align: center;
+}
+.pack360 h6{
+    max-width: 800px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 31px;
+    color: #646464;
+    text-align: center;
+    padding: 1rem 0rem;
+}
+.conCardPack360 {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.cardPack360 {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(../img/Rectangle55.png);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    width: 360px;
+    padding: 0.25rem 1rem;
+}
+.cardPack360 h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+@media  screen and (max-width: 1200px) {
+    .conCardWhy360{
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .conCardService360{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 0;
+        padding: 0;
+    }
+    .conCardFit360{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 0.25rem;
+    }
+    .conCardValue360 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 0.25rem;
+    }
+    .conCardPack360 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 0.25rem;
+    }
+}
+@media  screen and (max-width: 700px) {
+    .header{
+        height: 3.125rem;
+    }
+    .header-con{
+        height: 3.125rem;
+        padding: 0 0.25rem;
+    }
+    .logo {
+        height: 3.125rem;;
+        margin-top: 1rem;
+    }
+    .header-con button{
+        width: 65px;
+        height: 21px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .bg-1{
+        height: 850px;
+        background-size: cover;
+        background-position: center;
+    }
+    .bg-1 h2 {
+        width: 360px;
+    }
+    .VERSE360 {
+        padding: 0 0.25rem;
+    }
+    .VERSE360 h1{
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .VERSE360 h6{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .why360{
+        padding: 0 0.25rem;
+    }
+    .why360 h1{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .why360 h6{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .card-service360{
+        max-width: 360px;
+    }   
+ 
+    .con {
+        padding: 1rem 0.5rem;
+    
+    }
+
+    .service360 h1{
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .service360 h6{
+        font-size: 18px;
+        line-height: 20px;
+    }   
+    .card-service360{
+        max-width:360px ;
+        padding: 0 0.25rem;
+    }
+    .con2CardService360 h4{
+        font-size: 20px;
+        line-height: 24px;
+    }    
+
+    .step360 h1{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .step360 h6{
+        font-size: 16px;
+        line-height: 20px;
+    } 
+    .conCardstep360 img{
+        display: none;
+    }
+    .Step{
+        font-family: 'Cherry Swash', cursive;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: #5DC0AF;
+    }
+    .numStep{
+        font-family: 'Cherry Swash', cursive;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        color: #5DC0AF;
+    }
+    .cardStpe360 p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 14px;
+        text-align: center;
+        padding: 0.25rem;
+    }
+    .cardPack360 {
+        width: 340px;
+        padding: 0.25rem 1rem;
+    }
+}
