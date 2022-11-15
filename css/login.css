@@ -47,12 +47,12 @@
 }
 .box-right input{
     margin-top: 10px;
-    width: 50%;
+    width: 70%;
     padding: 0 10px;
 }
 .box-right p{
     margin-top: 10px;
-    width: 50%;
+    width: 70%;
 }
 .box-text button{
     margin-top: 10px;
@@ -67,10 +67,11 @@
     margin-top: 10px;
 }
 .logoSocial{
-    width: 30%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
     padding: 1rem;
+    gap: 1rem;
 }
 
 @media  screen and (max-width: 700px) {
